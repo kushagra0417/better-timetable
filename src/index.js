@@ -7,7 +7,7 @@ import App from './App';
 import axios from 'axios';
 
 const DEVELOPMENT_SERVER_BASE_URL = "http://localhost:8000";
-const PRODUCTION_SERVER_BASE_URL = "https://bettertimetableserver.herokuapp.com/";
+const PRODUCTION_SERVER_BASE_URL = "https://bettertimetableserver.herokuapp.com";
 
 axios.defaults.baseURL = `${process.env.NODE_ENV === 'development' ?
   DEVELOPMENT_SERVER_BASE_URL : PRODUCTION_SERVER_BASE_URL}`;
