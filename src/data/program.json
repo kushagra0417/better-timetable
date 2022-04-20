@@ -1,0 +1,44 @@
+{
+  "bca": {
+    "label": "BCA",
+    "desc": "Bachelor of Computer Application",
+    "batches": 3,
+    "teachers": 12,
+    "courses": 21
+  },
+  "bba-it": {
+    "label": "BBA (IT)",
+    "desc": "Bachelor of Business Administration - Information Technology",
+    "batches": 6,
+    "teachers": 18,
+    "courses": 36
+  },
+  "msc-ca": {
+    "label": "MSC (CA)",
+    "desc": "Master of Science - Computer Application",
+    "batches": 8,
+    "teachers": 22,
+    "courses": 28
+  },
+  "msc-ss": {
+    "label": "MSC (SS)",
+    "desc": "Master of Science - System Security",
+    "batches": 8,
+    "teachers": 22,
+    "courses": 28
+  },
+  "mba-it": {
+    "label": "MBA (IT)",
+    "desc": "Master of Business Administration - Information Technology",
+    "batches": 8,
+    "teachers": 22,
+    "courses": 28
+  },
+  "mba-dt": {
+    "label": "MBA (DT)",
+    "desc": "Master of Business Administration - Digital Transformation",
+    "batches": 8,
+    "teachers": 22,
+    "courses": 28
+  }
+}

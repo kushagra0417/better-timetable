@@ -1,0 +1,37 @@
+.text_area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  label {
+    // margin-left: 8px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--gray);
+    margin-bottom: 4px;
+    font-weight: 400;
+  }
+  textarea {
+    outline: none;
+    width: 100%;
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    border: 2px solid var(--light-gray);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    text-align: left;
+    background: var(--white);
+    color: var(--gray);
+    &:disabled {
+      background: var(--light-gray);
+    }
+  }
+
+  &:focus-within {
+    input {
+      border: 2px solid var(--gray);
+      background: var(--white);
+      color: var(--dark);
+    }
+  }
+}

@@ -1,0 +1,15 @@
+html {
+  --headline: #3f3f4b;
+  --background: #fffffe;
+  --sub-headline: "";
+  --text: #525252;
+  --highlight: #ff6e6c;
+}
+/* dark theme styling - when "data-theme" attribute is set to "dark" in html tag */
+html[data-theme="dark"] {
+  --headline: #3f3f4b;
+  --background: #fffffe;
+  --sub-headline: "";
+  --text: #525252;
+  --highlight: #ff6e6c;
+}

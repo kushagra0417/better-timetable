@@ -1,0 +1,23 @@
+$small-width: 600px;
+// $medium-width: 768px;
+$medium-width: 992px;
+$large-width: 1280px;
+
+/* Large devices (laptops/desktops, 992px and up) */
+@mixin smallDesktop {
+  @media only screen and (max-width: #{$large-width}) {
+    @content;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@mixin medium {
+  @media only screen and (max-width: #{$medium-width}) {
+    @content;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@mixin small {
+  @media only screen and (max-width: #{$small-width}) {
+    @content;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Better Timetable",
+  "short-name": "🕑table",
+  "logo": "./assets/logo.svg",
+  "enable-notice-board": true,
+  "theme": {
+    "dark": {
+      "primary": "",
+      "secondary": "",
+      "highlight": "",
+      "text": ""
+    },
+    "light": {
+      "primary": "",
+      "secondary": "",
+      "highlight": "",
+      "text": ""
+    }
+  }
+}

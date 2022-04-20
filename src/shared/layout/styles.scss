@@ -1,0 +1,46 @@
+@import "scss/util";
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 54px 1fr;
+  @include medium {
+    grid-template-columns: 48px 1fr;
+  }
+  @include small {
+    grid-template-columns: 1fr;
+  }
+  header {
+    grid-column: span 2;
+  }
+  main {
+    width: 100%;
+    height: 100%;
+    padding: 42px 36px 12px;
+    background: var(--background);
+    @include small {
+      padding: 42px 12px;
+    }
+    .top {
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      .meta {
+        p {
+          font-size: 0.8rem;
+          color: var(--gray);
+        }
+        h2 {
+          margin-top: 8px;
+          color: var(--dark);
+          font-size: 1.6rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

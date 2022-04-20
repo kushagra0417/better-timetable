@@ -1,0 +1,20 @@
+.header {
+  margin: 16px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
+  align-items: center;
+  h3 {
+    font-weight: 400;
+  }
+  .close {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.modal_body {
+  display: block;
+  margin: 0 16px;
+}

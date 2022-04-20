@@ -1,0 +1,230 @@
+[
+  {
+    "from": 1030,
+    "to": 1230,
+    "day": 1,
+    "label": "Current Trends and Practices in IT- Prathamesh Lahande"
+  },
+  {
+    "from": 1030,
+    "to": 1130,
+    "day": 2,
+    "label": "Current Trends and Practices in IT- Prathamesh Lahande"
+  },
+  {
+    "from": 1130,
+    "to": 1230,
+    "day": 2,
+    "label": "Introduction to Java Enterprise Framework-Dr.Anagha Vaidya"
+  },
+  {
+    "from": 1000,
+    "to": 1100,
+    "day": 5,
+    "label": "Introduction to Java Enterprise Framework-Dr.Anagha Vaidya"
+  },
+  {
+    "from": 800,
+    "to": 900,
+    "day": 1,
+    "label": "Internet of Things - Dr.Rajashree Jain"
+  },
+  {
+    "from": 900,
+    "to": 1000,
+    "day": 1,
+    "label": "Network Security Essentials - Dr.Tejaswini Apte"
+  },
+  {
+    "from": 1330,
+    "to": 1530,
+    "day": 1,
+    "label": "Creative Writing - Suchetana Banerjee"
+  },
+  {
+    "from": 800,
+    "to": 900,
+    "day": 2,
+    "label": "Network Administration-Ashok Pattar"
+  },
+  {
+    "from": 900,
+    "to": 1000,
+    "day": 2,
+    "label": "Network Security Essentials - Dr.Tejaswini Apte"
+  },
+  {
+    "from": 1330,
+    "to": 1530,
+    "day": 2,
+    "label": "Creative Writing - Suchetana Banerjee"
+  },
+  {
+    "from": 800,
+    "to": 900,
+    "day": 3,
+    "label": "Network Administration-Ashok Pattar"
+  },
+  {
+    "from": 900,
+    "to": 1000,
+    "day": 3,
+    "label": "Network Security Essentials - Dr.Tejaswini Apte"
+  },
+  {
+    "from": 1330,
+    "to": 1530,
+    "day": 3,
+    "label": "Server Side Web Technology- Dr.Shrikant Mapari"
+  },
+  {
+    "from": 800,
+    "to": 1000,
+    "day": 4,
+    "label": "Software Project Practices - Shubhashree Waghmare"
+  },
+  {
+    "from": 1330,
+    "to": 1530,
+    "day": 4,
+    "label": "Server Side Web Technology- Dr.Shrikant Mapari"
+  },
+  {
+    "from": 800,
+    "to": 900,
+    "day": 5,
+    "label": "Network Administration-Ashok Pattar"
+  },
+  {
+    "from": 900,
+    "to": 1000,
+    "day": 5,
+    "label": "Network Security Essentials - Dr.Tejaswini Apte"
+  },
+  {
+    "from": 1130,
+    "to": 1330,
+    "day": 5,
+    "label": "Internet of Things - Dr.Rajashree Jain"
+  },
+  {
+    "from": 1030,
+    "to": 1230,
+    "day": 6,
+    "label": "IoS Application Development -"
+  },
+  {
+    "from": 1530,
+    "to": 1730,
+    "day": 6,
+    "label": "IoS Application Development -"
+  },
+  {
+    "from": 1330,
+    "to": 1530,
+    "day": 3,
+    "label": "Server Side Web Technology- Dr.Shrikant Mapari"
+  },
+  {
+    "from": 1600,
+    "to": 1700,
+    "day": 3,
+    "label": "Cloud Application Development Group 2 -Dr.Parag Kaveri"
+  },
+  {
+    "from": 1330,
+    "to": 1530,
+    "day": 4,
+    "label": "Server Side Web Technology- Dr.Shrikant Mapari"
+  },
+  {
+    "from": 1600,
+    "to": 1800,
+    "day": 2,
+    "label": "Machine learning -Group 1 Dr.Pravin Metkewar"
+  },
+  {
+    "from": 1600,
+    "to": 1800,
+    "day": 4,
+    "label": "Machine learning -Group 1 Dr.Pravin Metkewar"
+  },
+  {
+    "from": 1700,
+    "to": 1900,
+    "day": 3,
+    "label": "Machine learning -Group 1 Dr.Pravin Metkewar"
+  },
+  {
+    "from": 1600,
+    "to": 1800,
+    "day": 5,
+    "label": "Machine learning -Group 2 Dr.Pravin Metkewar"
+  },
+  {
+    "from": 1800,
+    "to": 1900,
+    "day": 1,
+    "label": "Cloud Application Development Group 1 -Dr.Parag Kaveri"
+  },
+  {
+    "from": 1800,
+    "to": 1900,
+    "day": 2,
+    "label": "Cloud Application Development Group 1 -Dr.Parag Kaveri"
+  },
+  {
+    "from": 1800,
+    "to": 1900,
+    "day": 4,
+    "label": "Cloud Application Development Group 1 -Dr.Parag Kaveri"
+  },
+  {
+    "from": 1800,
+    "to": 1900,
+    "day": 5,
+    "label": "Cloud Application Development Group 1 -Dr.Parag Kaveri"
+  },
+  {
+    "from": 1600,
+    "to": 1800,
+    "day": 1,
+    "label": "Cloud Application Development Group 2 -Dr.Parag Kaveri"
+  },
+  {
+    "from": 1600,
+    "to": 1700,
+    "day": 3,
+    "label": "Cloud Application Development Group 2 -Dr.Parag Kaveri"
+  },
+  {
+    "from": 1430,
+    "to": 1530,
+    "day": 5,
+    "label": "Cloud Application Development Group 2 -Dr.Parag Kaveri"
+  },
+  {
+    "from": 800,
+    "to": 1000,
+    "day": 6,
+    "label": "Flexi-Credit Course (Block Chain) Group 1 - Mr. Atul Khate"
+  },
+  {
+    "from": 1330,
+    "to": 1530,
+    "day": 6,
+    "label": "Flexi-Credit Course (Block Chain) Group 2 - Mr. Atul Khate"
+  },
+  {
+    "from": 1330,
+    "to": 1530,
+    "day": 1,
+    "label": "Basic Psychology - Grp 1 - Munirah Kheraluwala"
+  },
+  {
+    "from": 1330,
+    "to": 1530,
+    "day": 2,
+    "label": "Basic Psychology - Grp 2 - Munirah Kheraluwala"
+  }
+]

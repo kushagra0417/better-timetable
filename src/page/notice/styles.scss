@@ -1,0 +1,67 @@
+@import "scss/util";
+
+main {
+  .board {
+    height: calc(100vh - 200px);
+    display: grid;
+    grid-template-columns: 720px 1fr;
+    @include medium {
+      grid-template-columns: 1fr;
+    }
+    .notices {
+      height: 100%;
+      overflow-y: scroll;
+      .notice {
+        background: var(--white);
+        padding: 12px;
+        border-radius: 4px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 16px;
+        .pin {
+          padding: 6px;
+          color: var(--gray);
+          background: var(--light-gray);
+          position: absolute;
+          display: flex;
+          border-radius: 4px;
+          right: 12px;
+          font-size: 1.2rem;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .author {
+          display: flex;
+          align-items: center;
+          color: var(--dark);
+          img {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            margin-right: 12px;
+          }
+          .name {
+            font-size: 1.1rem;
+            font-weight: 500;
+          }
+          .time {
+            font-size: 0.8rem;
+          }
+        }
+        .data {
+          margin-top: 12px;
+          h1 {
+            font-size: 1.6rem;
+            color: var(--dark);
+          }
+          p {
+            font-size: 0.9rem;
+            margin-top: 8px;
+            color: var(--gray);
+          }
+        }
+      }
+    }
+  }
+}

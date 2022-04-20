@@ -1,0 +1,10 @@
+@import "scss/util";
+
+main {
+  .account {
+    width: 720px;
+    @include medium {
+      width: 100%;
+    }
+  }
+}

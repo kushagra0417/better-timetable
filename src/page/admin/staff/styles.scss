@@ -1,0 +1,75 @@
+.add_staff {
+  padding-right: 24px;
+}
+
+.right {
+  padding: 0 18px;
+  border-left: 2px solid var(--light-gray);
+  position: sticky;
+  height: inherit;
+  .section_header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: var(--dark);
+    .section_title {
+      font-weight: 500;
+      padding: 12px;
+    }
+  }
+  .staffs {
+    overflow-y: scroll;
+    max-height: 92%;
+    .staff {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 4px;
+      padding: 6px 12px;
+      color: var(--gray);
+      &:hover {
+        cursor: pointer;
+        background: var(--white);
+        .show_on_hov {
+          opacity: 1;
+        }
+      }
+      .details {
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+        height: fit-content;
+        img {
+          height: 36px;
+          width: 36px;
+          border-radius: 50%;
+        }
+        .name {
+          color: var(--dark);
+          font-size: 0.9rem;
+          font-weight: 500;
+        }
+        .email {
+          font-size: 0.76rem;
+        }
+      }
+      .role,
+      .class_count {
+        font-size: 0.76rem;
+      }
+
+      .role.admin {
+        color: rgb(65, 160, 1);
+      }
+      .role.professor {
+        color: rgb(1, 120, 160);
+      }
+      .role.visiting {
+        color: rgb(133, 1, 160);
+      }
+      .show_on_hov {
+        opacity: 0;
+      }
+    }
+  }
+}
